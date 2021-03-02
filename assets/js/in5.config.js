@@ -81,7 +81,7 @@ var sliderSettings = {}, nav = {}, in5 = {layouts:[
  		"index": 2
  	}
  ]},
-viewOpts = ({title:0, page:1, zoom:0, fs:1, pdf:"assets/downloads/Sony_Kramer_Datasheet2020v6a_TB%20comments.pdf", toc:1, thumbs:1, progress:0, showbar:1, logo:"assets/images/frame-logo.png", bg:"#4b4d4e", loadText:"please wait, removing watermelon seeds...", footer:0});
+viewOpts = ({title:0, page:1, zoom:0, fs:1, pdf:"assets/downloads/Sony_Kramer_Datasheet2020v6a_TB%20comments.pdf", toc:1, thumbs:1, progress:0, showbar:1, logo:"assets/images/frame-logo.png", bg:"#636466", loadText:"please wait, removing watermelon seeds...", footer:0});
 var uAgent = navigator.userAgent.toLowerCase();
 var isIOS = ((/iPad|iPhone|iPod/.test(navigator.platform) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) && !window.MSStream), 
 	isIPad = uAgent.indexOf("ipad") > -1 || (isIOS && window.devicePixelRatio < 3), isIPhone = uAgent.indexOf("iphone") > -1 || (isIOS && window.devicePixelRatio > 2),
