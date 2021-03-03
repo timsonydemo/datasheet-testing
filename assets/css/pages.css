@@ -423,7 +423,7 @@ body, #container-wrap { background:#ededed; }
 #slider { width:1280px; height:800px; }
 .page-scale-wrap { width:1280px; height:800px; background: #fff !important; }
 .paper-vertical { width:1280px; height:100%; }
-.paper-horizontal { width:7512px; height:812px; }
+.paper-horizontal { width:10016px; height:812px; }
 nav#page-nav { display:none; }
 html.nav-transition nav#page-nav { opacity:.3; pointer-events:none; }
 nav#page-nav > button {
@@ -1829,6 +1829,330 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 	height:249px !important;
 	left:446px !important;
 	top:874px !important;
+}
+
+#item4048 {
+	opacity:0.65;
+	width:220px !important;
+	height:174px !important;
+	background:#ffff00;
+}
+
+#item4016 {
+	opacity:0.65;
+	width:220px !important;
+	height:174px !important;
+	background:#ff00ff;
+}
+
+#item4043 {
+	width:220px !important;
+	height:174px !important;
+	left:852px !important;
+	top:302px !important;
+}
+
+#item4044 {
+	width:250px !important;
+	height:70px !important;
+	left:837px !important;
+	top:350px !important;
+}
+
+#item3022 {
+	width:101px !important;
+	height:77px !important;
+	left:575px !important;
+	top:529px !important;
+}
+
+#item3040 {
+	width:101px !important;
+	height:77px !important;
+	left:469px !important;
+	top:529px !important;
+}
+
+#item3059 {
+	width:101px !important;
+	height:77px !important;
+	left:363px !important;
+	top:529px !important;
+}
+
+#item3079 {
+	width:101px !important;
+	height:77px !important;
+	left:256px !important;
+	top:529px !important;
+}
+
+#item3100 {
+	width:101px !important;
+	height:77px !important;
+	left:150px !important;
+	top:529px !important;
+}
+
+#item3120 {
+	width:101px !important;
+	height:77px !important;
+	left:44px !important;
+	top:529px !important;
+}
+
+#item3127 {
+	width:23px !important;
+	height:41px !important;
+}
+
+#item3130 {
+	width:24px !important;
+	height:42px !important;
+	left:653px !important;
+	top:350px !important;
+}
+
+#item3131 {
+	width:24px !important;
+	height:42px !important;
+	left:44px !important;
+	top:350px !important;
+}
+
+#item3135 {
+	width:573px !important;
+	height:295px !important;
+	left:74px !important;
+	top:224px !important;
+}
+
+#item3879 {
+	opacity:0.65;
+	width:1280px !important;
+	height:800px !important;
+	left:3px !important;
+	top:3px !important;
+	background:#fff;
+}
+
+#item3880 {
+	width:1286px !important;
+	height:806px !important;
+	left:10px !important;
+	top:10px !important;
+}
+
+#item3883 {
+	width:768px !important;
+	height:480px !important;
+	left:269px !important;
+	top:173px !important;
+	box-shadow:2px 2px 12px 0px rgba(0,0,0,0.33);
+	-webkit-box-shadow:2px 2px 12px 0px rgba(0,0,0,0.33);
+	border-radius:20px;
+	background:#fff;
+}
+
+#item3889 {
+	width:41px !important;
+	height:41px !important;
+	left:13px !important;
+	top:13px !important;
+	text-shadow:2px 2px 12px rgba(0,0,0,0.33);
+	border-radius:20px;
+}
+
+#item3890 {
+	width:71px !important;
+	height:71px !important;
+	left:974px !important;
+	top:170px !important;
+}
+
+#item3892 {
+	width:728px !important;
+	height:400px !important;
+	left:289px !important;
+	top:233px !important;
+}
+
+#item3876 {
+	width:10px !important;
+	height:10px !important;
+	left:13px !important;
+	top:13px !important;
+}
+
+#item3875 {
+	width:1296px !important;
+	height:816px !important;
+	left:-13px !important;
+	top:-13px !important;
+}
+
+#item4056 {
+	opacity:0.65;
+	width:220px !important;
+	height:174px !important;
+	background:#ffff00;
+}
+
+#item4054 {
+	opacity:0.65;
+	width:220px !important;
+	height:174px !important;
+	background:#ff00ff;
+}
+
+#item4052 {
+	width:220px !important;
+	height:174px !important;
+	left:93px !important;
+	top:470px !important;
+}
+
+#item4057 {
+	width:250px !important;
+	height:70px !important;
+	left:78px !important;
+	top:518px !important;
+}
+
+#item3217 {
+	width:61px !important;
+	height:46px !important;
+	left:336px !important;
+	top:254px !important;
+}
+
+#item3227 {
+	width:61px !important;
+	height:46px !important;
+	left:272px !important;
+	top:254px !important;
+}
+
+#item3240 {
+	width:61px !important;
+	height:46px !important;
+	left:208px !important;
+	top:254px !important;
+}
+
+#item3253 {
+	width:61px !important;
+	height:46px !important;
+	left:145px !important;
+	top:254px !important;
+}
+
+#item3266 {
+	width:61px !important;
+	height:46px !important;
+	left:81px !important;
+	top:254px !important;
+}
+
+#item3278 {
+	width:61px !important;
+	height:46px !important;
+	left:17px !important;
+	top:254px !important;
+}
+
+#item3292 {
+	width:14px !important;
+	height:25px !important;
+}
+
+#item3289 {
+	width:14px !important;
+	height:25px !important;
+	left:382px !important;
+	top:147px !important;
+}
+
+#item3294 {
+	width:14px !important;
+	height:25px !important;
+	left:18px !important;
+	top:147px !important;
+}
+
+#item3299 {
+	width:344px !important;
+	height:177px !important;
+	left:35px !important;
+	top:71px !important;
+}
+
+#item3333 {
+	width:117px !important;
+	height:89px !important;
+	left:647px !important;
+	top:409px !important;
+}
+
+#item3344 {
+	width:117px !important;
+	height:89px !important;
+	left:524px !important;
+	top:409px !important;
+}
+
+#item3355 {
+	width:117px !important;
+	height:89px !important;
+	left:402px !important;
+	top:409px !important;
+}
+
+#item3368 {
+	width:117px !important;
+	height:89px !important;
+	left:279px !important;
+	top:409px !important;
+}
+
+#item3380 {
+	width:117px !important;
+	height:89px !important;
+	left:156px !important;
+	top:409px !important;
+}
+
+#item3390 {
+	width:117px !important;
+	height:89px !important;
+	left:34px !important;
+	top:409px !important;
+}
+
+#item3403 {
+	width:27px !important;
+	height:48px !important;
+}
+
+#item3400 {
+	width:27px !important;
+	height:48px !important;
+	left:737px !important;
+	top:204px !important;
+}
+
+#item3405 {
+	width:27px !important;
+	height:48px !important;
+	left:34px !important;
+	top:204px !important;
+}
+
+#item3410 {
+	width:661px !important;
+	height:340px !important;
+	left:68px !important;
+	top:58px !important;
 }
 #in5footer,  #prefooter {display:none;}
 
