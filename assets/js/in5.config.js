@@ -32,7 +32,7 @@ var prefix = (function () {
 var pre = (document.createElement('div').style['WebkitTransform'] != undefined) ? '-webkit-' : '';
 var useSwipe = true;
 var pageMode = 'fade';
-var pageW = 1280, pageH = 800;
+var pageW = 1366, pageH = 768;
 var multifile = false;
 if(multifile) { 
 	$('html').addClass('multifile'); 
@@ -54,34 +54,15 @@ var animationItEvents = 'webkitAnimationIteration oanimationiteration MSAnimatio
 var interactiveSelectors = 'a,button,input,select,textarea,.mejs-overlay-button,map,[onclick],[data-fixed-action],[data-useswipe="1"],[data-tapstart="1"],.panzoom,#viewer-options-wrap';
 var sliderSettings = {}, nav = {}, in5 = {layouts:[
  	{
- 		"name": "1280 x 800 H",
- 		"class": "mq-1280 mq-default",
- 		"width": 1280,
- 		"height": 800,
+ 		"class": "mq-none mq-default",
+ 		"width": 1366,
+ 		"height": 768,
  		"default": true,
  		"trigger": "default",
  		"index": 0
- 	},
- 	{
- 		"name": "mobile phone V",
- 		"class": "mq-414",
- 		"width": 414,
- 		"height": 896,
- 		"default": false,
- 		"trigger": 544,
- 		"index": 1
- 	},
- 	{
- 		"name": "1280 x 800 V",
- 		"class": "mq-800",
- 		"width": 800,
- 		"height": 800,
- 		"default": false,
- 		"trigger": 960,
- 		"index": 2
  	}
  ]},
-viewOpts = ({title:0, page:1, zoom:0, fs:1, pdf:"assets/downloads/Sony_Kramer_Datasheet2020v6a_TB%20comments.pdf", toc:1, thumbs:1, progress:0, showbar:1, logo:"assets/images/frame-logo.png", bg:"#636466", loadText:"please wait, removing watermelon seeds...", footer:0});
+viewOpts = ({title:0, page:1, zoom:0, fs:1, pdf:"assets/downloads/Sony_Kramer_Datasheet2020v6a_TB%20comments.pdf", toc:1, thumbs:1, progress:0, showbar:1, logo:"assets/images/frame-logo.png", bg:"#5e5e5e", loadText:"please wait, removing watermelon seeds...", footer:0});
 var uAgent = navigator.userAgent.toLowerCase();
 var isIOS = ((/iPad|iPhone|iPod/.test(navigator.platform) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) && !window.MSStream), 
 	isIPad = uAgent.indexOf("ipad") > -1 || (isIOS && window.devicePixelRatio < 3), isIPhone = uAgent.indexOf("iphone") > -1 || (isIOS && window.devicePixelRatio > 2),
