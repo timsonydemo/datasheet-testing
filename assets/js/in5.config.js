@@ -44,7 +44,7 @@ var lazyLoad = true;
 var scaleMode = 'width_all';
 var webAppType = '';
 var useTracker = false;
-var shareInfo = {btns:["twitter", "facebook", "linkedin"], align:"right"};
+var shareInfo = {btns:["twitter", "facebook", "linkedin"], align:"left"};
 var maxScaleWidth, maxScaleHeight;
 var webAppEmailSubject = 'Check out this Web App for {deviceName}';
 var webAppEmailBody = 'Add this Web App to Your {deviceName} by visiting: ';
@@ -54,15 +54,43 @@ var animationItEvents = 'webkitAnimationIteration oanimationiteration MSAnimatio
 var interactiveSelectors = 'a,button,input,select,textarea,.mejs-overlay-button,map,[onclick],[data-fixed-action],[data-useswipe="1"],[data-tapstart="1"],.panzoom,#viewer-options-wrap';
 var sliderSettings = {}, nav = {}, in5 = {layouts:[
  	{
- 		"class": "mq-none mq-default",
+ 		"name": "1366 x 768 H",
+ 		"class": "mq-1366",
  		"width": 1366,
- 		"height": 768,
+ 		"height": 764,
+ 		"default": false,
+ 		"trigger": 1526,
+ 		"index": 0
+ 	},
+ 	{
+ 		"name": "1920x1080",
+ 		"class": "mq-1920 mq-default",
+ 		"width": 1920,
+ 		"height": 1080,
  		"default": true,
  		"trigger": "default",
- 		"index": 0
+ 		"index": 1
+ 	},
+ 	{
+ 		"name": "mobile phone V",
+ 		"class": "mq-414",
+ 		"width": 414,
+ 		"height": 896,
+ 		"default": false,
+ 		"trigger": 544,
+ 		"index": 2
+ 	},
+ 	{
+ 		"name": "iPad H",
+ 		"class": "mq-1024",
+ 		"width": 1024,
+ 		"height": 768,
+ 		"default": false,
+ 		"trigger": 1184,
+ 		"index": 3
  	}
  ]},
-viewOpts = ({title:0, page:1, zoom:0, fs:1, pdf:"assets/downloads/Sony_Barco_Datasheet2020v11.pdf", toc:1, thumbs:1, progress:0, showbar:1, logo:"assets/images/frame-logo.png", bg:"#5e5e5e", loadText:"please wait, removing watermelon seeds...", footer:0});
+viewOpts = ({title:0, page:1, zoom:0, fs:1, pdf:"assets/downloads/Sony_Barco_Datasheet2020v11.pdf", toc:1, thumbs:1, progress:0, showbar:1, logo:"assets/images/frame-logo.png", bg:"#5e5e5e", loadText:"milking goats", footer:0});
 var uAgent = navigator.userAgent.toLowerCase();
 var isIOS = ((/iPad|iPhone|iPod/.test(navigator.platform) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) && !window.MSStream), 
 	isIPad = uAgent.indexOf("ipad") > -1 || (isIOS && window.devicePixelRatio < 3), isIPhone = uAgent.indexOf("iphone") > -1 || (isIOS && window.devicePixelRatio > 2),
