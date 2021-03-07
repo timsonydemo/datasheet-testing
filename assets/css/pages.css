@@ -980,6 +980,33 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 	top:1139px !important;
 }
 
+#item2005 {
+	width:259px !important;
+	height:101px !important;
+	background:#ff0000;
+}
+
+#item2003 {
+	width:259px !important;
+	height:101px !important;
+	left:245px !important;
+	top:1778px !important;
+}
+
+#item2030 {
+	width:59px !important;
+	height:59px !important;
+	left:483px !important;
+	top:1863px !important;
+}
+
+#item2057 {
+	width:37px !important;
+	height:37px !important;
+	left:487px !important;
+	top:1752px !important;
+}
+
 #item662 {
 	width:162px !important;
 	height:177px !important;
