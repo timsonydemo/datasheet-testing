@@ -1655,10 +1655,10 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 }
 
 #item4737.in5-parallax-bg {
-	width:767px !important;
-	height:377px !important;
-	left:-216px !important;
-	top:-1px !important;
+	width:624px !important;
+	height:324px !important;
+	left:-105px !important;
+	top:1px !important;
 }
 
 #item4740 {
@@ -1800,11 +1800,11 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 
 @keyframes springleft-4896 {
 	0% {transform:translate(0px,0px);}
-	100% {transform:translate(-200px,0px);}
+	100% {transform:translate(-145px,0px);}
 }
 @-webkit-keyframes springleft-4896 {
 	0% {-webkit-transform:translate(0px,0px);}
-	100% {-webkit-transform:translate(-200px,0px);}
+	100% {-webkit-transform:translate(-145px,0px);}
 }
 #item4951 {
 	width:175px !important;
@@ -2708,7 +2708,7 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 }
 
 #item9556 {
-	width:501px !important;
+	width:548px !important;
 	height:1346px !important;
 	left:440px !important;
 	top:403px !important;
