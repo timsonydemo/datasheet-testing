@@ -419,7 +419,7 @@ ul.thumbs > li img { box-shadow:0 0 4px rgba(0, 0, 0, 0.5); }
 
 body, #container-wrap { background:#ededed; }
 :-webkit-full-screen { background:#ededed; }
-#loadIndicator span:after { padding-left:1ex; content:'milking goats'; }
+#loadIndicator span:after { padding-left:1ex; content:'removing watermelon seeds...'; }
 #slider { width:1366px; height:768px; }
 .page-scale-wrap { width:1366px; height:768px; background: #fff !important; }
 .paper-vertical { width:1366px; height:100%; }
@@ -801,13 +801,6 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 	top:16px !important;
 }
 
-#item382 {
-	width:186px !important;
-	height:35px !important;
-	left:484px !important;
-	top:27px !important;
-}
-
 #item464 {
 	width:186px !important;
 	height:53px !important;
@@ -828,6 +821,13 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 	height:35px !important;
 	left:61px !important;
 	top:545px !important;
+}
+
+#item9642 {
+	width:119px !important;
+	height:36px !important;
+	left:549px !important;
+	top:28px !important;
 }
 
 #item4300 {
@@ -957,13 +957,6 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 	top:27px !important;
 }
 
-#item3410 {
-	width:260px !important;
-	height:49px !important;
-	left:680px !important;
-	top:42px !important;
-}
-
 #item3426 {
 	width:260px !important;
 	height:74px !important;
@@ -984,6 +977,13 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 	height:49px !important;
 	left:87px !important;
 	top:767px !important;
+}
+
+#item9651 {
+	width:161px !important;
+	height:49px !important;
+	left:780px !important;
+	top:43px !important;
 }
 
 #item5549 {
@@ -1113,13 +1113,6 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 	top:27px !important;
 }
 
-#item4663 {
-	width:121px !important;
-	height:23px !important;
-	left:84px !important;
-	top:34px !important;
-}
-
 #item4678 {
 	width:186px !important;
 	height:53px !important;
@@ -1140,6 +1133,13 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 	height:35px !important;
 	left:136px !important;
 	top:590px !important;
+}
+
+#item9662 {
+	width:92px !important;
+	height:27px !important;
+	left:107px !important;
+	top:32px !important;
 }
 
 #item8738 {
@@ -1269,13 +1269,6 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 	top:18px !important;
 }
 
-#item7851 {
-	width:186px !important;
-	height:35px !important;
-	left:313px !important;
-	top:29px !important;
-}
-
 #item7865 {
 	width:186px !important;
 	height:53px !important;
@@ -1287,15 +1280,22 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 #item7863 {
 	width:186px !important;
 	height:53px !important;
-	left:36px !important;
+	left:67px !important;
 	top:548px !important;
 }
 
 #item7866 {
 	width:146px !important;
 	height:35px !important;
-	left:61px !important;
+	left:92px !important;
 	top:557px !important;
+}
+
+#item9675 {
+	width:127px !important;
+	height:36px !important;
+	left:371px !important;
+	top:30px !important;
 }
 
 #item407.in5-parallax-bg {
@@ -1971,6 +1971,13 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 	top:1452px !important;
 }
 
+#item8105.in5-parallax-bg {
+	width:191px !important;
+	height:289px !important;
+	left:766px !important;
+	top:1138px !important;
+}
+
 @keyframes springleft-8082 {
 	0% {transform:translate(0px,0px);}
 	100% {transform:translate(-200px,0px);}
@@ -1979,13 +1986,6 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 	0% {-webkit-transform:translate(0px,0px);}
 	100% {-webkit-transform:translate(-200px,0px);}
 }
-#item8105.in5-parallax-bg {
-	width:191px !important;
-	height:289px !important;
-	left:766px !important;
-	top:1138px !important;
-}
-
 #item8141 {
 	width:203px !important;
 	height:79px !important;
@@ -2113,27 +2113,6 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 	height:249px !important;
 	left:82px !important;
 	top:651px !important;
-}
-
-#item933 {
-	opacity:0.65;
-	width:220px !important;
-	height:174px !important;
-	background:#ffff00;
-}
-
-#item929 {
-	opacity:0.65;
-	width:220px !important;
-	height:174px !important;
-	background:#ff00ff;
-}
-
-#item927 {
-	width:220px !important;
-	height:174px !important;
-	left:1101px !important;
-	top:1377px !important;
 }
 
 #item1015 {
@@ -2280,27 +2259,6 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 	top:858px !important;
 }
 
-#item3978 {
-	opacity:0.65;
-	width:220px !important;
-	height:174px !important;
-	background:#ffff00;
-}
-
-#item3976 {
-	opacity:0.65;
-	width:220px !important;
-	height:174px !important;
-	background:#ff00ff;
-}
-
-#item3974 {
-	width:220px !important;
-	height:174px !important;
-	left:1642px !important;
-	top:1584px !important;
-}
-
 @keyframes custom-4003 {
 	0% {transform:translate(0px,0px) scaleX(1);}
 	100% {transform:translate(0px,0px) scaleX(0);}
@@ -2328,52 +2286,10 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 	top:1808px !important;
 }
 
-#item5039 {
-	width:62px !important;
-	height:47px !important;
-	left:339px !important;
-	top:256px !important;
-}
-
-#item5050 {
-	width:62px !important;
-	height:47px !important;
-	left:274px !important;
-	top:256px !important;
-}
-
-#item5061 {
-	width:62px !important;
-	height:47px !important;
-	left:208px !important;
-	top:256px !important;
-}
-
-#item5072 {
-	width:62px !important;
-	height:47px !important;
-	left:143px !important;
-	top:256px !important;
-}
-
-#item5082 {
-	width:62px !important;
-	height:47px !important;
-	left:78px !important;
-	top:256px !important;
-}
-
-#item5092 {
-	width:62px !important;
-	height:47px !important;
-	left:13px !important;
-	top:256px !important;
-}
-
 #item5113 {
 	width:352px !important;
 	height:181px !important;
-	left:31px !important;
+	left:54px !important;
 	top:69px !important;
 }
 
@@ -2396,27 +2312,6 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 	top:315px !important;
 }
 
-#item5229 {
-	opacity:0.65;
-	width:113px !important;
-	height:90px !important;
-	background:#ffff00;
-}
-
-#item5227 {
-	opacity:0.65;
-	width:113px !important;
-	height:90px !important;
-	background:#ff00ff;
-}
-
-#item5225 {
-	width:113px !important;
-	height:90px !important;
-	left:156px !important;
-	top:1438px !important;
-}
-
 @keyframes custom-5254 {
 	0% {transform:translate(0px,0px) scaleX(1);}
 	100% {transform:translate(0px,0px) scaleX(0);}
@@ -2434,14 +2329,14 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 	width:113px !important;
 	height:24px !important;
 	left:36px !important;
-	top:1571px !important;
+	top:1513px !important;
 }
 
 #item5381 {
 	width:400px !important;
 	height:230px !important;
-	left:13px !important;
-	top:1672px !important;
+	left:8px !important;
+	top:1630px !important;
 }
 
 #item9385 {
@@ -2542,27 +2437,6 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 	top:576px !important;
 }
 
-#item8417 {
-	opacity:0.65;
-	width:220px !important;
-	height:174px !important;
-	background:#ffff00;
-}
-
-#item8415 {
-	opacity:0.65;
-	width:220px !important;
-	height:174px !important;
-	background:#ff00ff;
-}
-
-#item8413 {
-	width:220px !important;
-	height:174px !important;
-	left:713px !important;
-	top:1611px !important;
-}
-
 @keyframes custom-8443 {
 	0% {transform:translate(0px,0px) scaleX(1);}
 	100% {transform:translate(0px,0px) scaleX(0);}
@@ -2659,17 +2533,17 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 	top:110px !important;
 }
 
-#item6046 {
-	width:83px !important;
-	height:26px !important;
-	left:10px !important;
-	top:10px !important;
-}
-
 #item9423 {
 	width:83px !important;
 	height:26px !important;
 	left:11px !important;
+	top:10px !important;
+}
+
+#item6046 {
+	width:83px !important;
+	height:26px !important;
+	left:10px !important;
 	top:10px !important;
 }
 
@@ -2680,14 +2554,14 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 	top:110px !important;
 }
 
-#item6050 {
+#item9454 {
 	width:83px !important;
 	height:26px !important;
 	left:10px !important;
 	top:10px !important;
 }
 
-#item9454 {
+#item6050 {
 	width:83px !important;
 	height:26px !important;
 	left:10px !important;
